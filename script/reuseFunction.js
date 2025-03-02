@@ -39,3 +39,10 @@ function getHistory(id){
 function randomNumber(){
  return Math.floor(Math.random() * 256);
 }
+
+
+//back
+
+function Back() {
+    window.history.back();
+}

@@ -15,6 +15,7 @@ currentTimeParent.innerHTML = `
 `
 
 
+
 document.getElementById('mobile-btn').addEventListener('click', function (event) {
  completed();
  getHistory('mobile-text');
